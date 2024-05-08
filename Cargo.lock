@@ -171,6 +171,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "itertools"
+version = "0.12.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ba291022dbbd398a455acf126c1e341954079855bc60dfdda641363bd6922569"
+dependencies = [
+ "either",
+]
+
+[[package]]
 name = "lenia_ca"
 version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -523,10 +532,12 @@ checksum = "3354b9ac3fae1ff6755cb6db53683adb661634f67557942dea4facebec0fee4b"
 name = "universe"
 version = "0.1.0"
 dependencies = [
+ "itertools",
  "lenia_ca",
  "macroquad",
  "ndarray",
  "ndarray-rand",
+ "rayon",
 ]
 
 [[package]]

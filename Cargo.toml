@@ -6,7 +6,9 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+itertools = "0.12.1"
 lenia_ca = "0.1.1"
 macroquad = "0.4.5"
 ndarray = "0.15.6"
 ndarray-rand = "0.14.0"
+rayon = "1.10.0"
